@@ -49,7 +49,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-center text-primary">Please fill all boxes</h5>
                             
-                            <form method="get" action="formData.php">
+                            <form method="post" action="formData.php">
                                 <div class="form-group">
                                     <label class="text-success">Last Name</label>
                                     <input type="text" class="form-control" name="lastname">

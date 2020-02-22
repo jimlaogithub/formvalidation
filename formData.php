@@ -1,18 +1,18 @@
 <?php
-    $lastname = $_GET['lastname'];
-    $firstname = $_GET['firstname'];
-    $middlename = $_GET['middlename'];
-    $address = $_GET['address'];
-    $DOB = $_GET['DOB'];
-    $POB = $_GET['POB'];
-    $sex = $_GET['gridRadios'];
-    $guardian = $_GET['guardian'];
-    $contact = $_GET['contact'];
-    $status = $_GET['status'];
-    $year = $_GET['year'];
-    $course = $_GET['course'];
-    $SY = $_GET['SY'];
-    $email = $_GET['email'];
+    $lastname = $_POST['lastname'];
+    $firstname = $_POST['firstname'];
+    $middlename = $_POST['middlename'];
+    $address = $_POST['address'];
+    $DOB = $_POST['DOB'];
+    $POB = $_POST['POB'];
+    $sex = $_POST['gridRadios'];
+    $guardian = $_POST['guardian'];
+    $contact = $_POST['contact'];
+    $status = $_POST['status'];
+    $year = $_POST['year'];
+    $course = $_POST['course'];
+    $SY = $_POST['SY'];
+    $email = $_POST['email'];
 
     echo $lastname,$firstname,$middlename,"\n";
     echo $address,"\n";
@@ -26,6 +26,5 @@
     echo $course,"\n";
     echo $SY,"\n";
     echo $email,"\n";
-    
 
 ?>
