@@ -49,7 +49,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-center text-primary">Please fill all boxes</h5>
                             
-                            <form>
+                            <form method="get" action="formData.php">
                                 <div class="form-group">
                                     <label class="text-success">Last Name</label>
                                     <input type="text" class="form-control" name="lastname">
@@ -97,8 +97,8 @@
                                     </div>
                                 </fieldset>
                                 <div class="form-group">
-                                    <label class="text-success">Gaurdian</label>
-                                    <input type="text" class="form-control" name="gaurdian">
+                                    <label class="text-success">Guardian</label>
+                                    <input type="text" class="form-control" name="guardian">
                                 </div>
 
                                 <div class="form-group">
@@ -113,7 +113,7 @@
 
                                 <div class="form-group">
                                     <label class="my-1 mr-2 text-success" for="inlineFormCustomSelectPref">Year Level</label>
-                                    <select class="custom-select my-1 mr-sm-2 text-success" id="inlineFormCustomSelectPref">
+                                    <select class="custom-select my-1 mr-sm-2 text-success" id="inlineFormCustomSelectPref" name="year">
                                         <option value="0">First Year</option>
                                         <option value="1">Second Year</option>
                                         <option value="2">Third Year</option>
@@ -123,7 +123,7 @@
 
                                 <div class="form-group">
                                     <label class="my-1 mr-2 text-success" for="inlineFormCustomSelectPref">Course</label>
-                                    <select class="custom-select my-1 mr-sm-2 text-success" id="inlineFormCustomSelectPref">
+                                    <select class="custom-select my-1 mr-sm-2 text-success" id="inlineFormCustomSelectPref" name="course">
                                         <option value="0">BSIT</option>
                                         <option value="1">BSCE</option>
                                         <option value="2">BSTCM</option>
